@@ -12,7 +12,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://100.25.199.45:9000/</sonar.host.url>
+		<sonar.host.url>http://52.201.229.98:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>password</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,13 +24,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>icic-release</name>
-	      <url>http://100.24.244.119:8081/repository/icic-release/</url>
+	      <url>http://34.232.78.219:8081/repository/icic-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>icic-shapshot</name>
-	      <url>http://100.24.244.119:8081/repository/icic-shapshot/</url>
+	      <url>http://34.232.78.219:8081/repository/icic-shapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
