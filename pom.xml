@@ -19,7 +19,22 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
-  <dependencies>
+<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>icic-release</name>
+	      <url>http://100.24.244.119:8081/repository/icic-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>icic-shapshot</name>
+	      <url>http://100.24.244.119:8081/repository/icic-shapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+	<dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
